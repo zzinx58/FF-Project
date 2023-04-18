@@ -26,5 +26,10 @@
   },
   "volta": {
     "node": "18.16.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "consola": "3.0.1"
+    }
   }
 }
