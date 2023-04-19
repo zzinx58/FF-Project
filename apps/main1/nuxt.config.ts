@@ -10,7 +10,9 @@ export default defineNuxtConfig({
     "@nuxtjs/strapi",
     "@unocss/nuxt",
   ],
-  strapi: {},
+  strapi: {
+    devtools: true,
+  },
   unocss: {},
   pwa: {},
   eslint: {},
