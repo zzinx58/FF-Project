@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   ],
   strapi: {
     devtools: true,
+    url: "http://localhost:1337",
   },
   unocss: {},
   pwa: {},
