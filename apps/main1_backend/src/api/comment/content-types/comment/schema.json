@@ -12,11 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "content": {
+    "comment_content": {
       "type": "text"
     },
-    "uid": {
+    "comment_uid": {
       "type": "uid"
+    },
+    "comment_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "comments_subComments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment"
     }
   }
 }

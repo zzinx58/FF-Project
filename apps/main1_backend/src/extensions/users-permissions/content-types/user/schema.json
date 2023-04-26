@@ -66,10 +66,20 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "collections": {
+    "user_collections": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::collection.collection"
+    },
+    "user_avatarSrc": {
+      "type": "text"
+    },
+    "user_sex": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
     }
   }
 }
