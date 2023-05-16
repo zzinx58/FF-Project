@@ -13,6 +13,7 @@ export default {
         "app.components.HomePage.welcomeBlock.content":
           "Congrats! You are logged as the first administrator. To discover the powerful features provided by BTF-CMS, please create your first Content type!",
         "app.components.HomePage.create": "Create your content-type",
+        "Settings.permissions.users.listview.header.subtitle": "All the users who have access to the BTF admin panel"
       },
       "zh-Hans": {
         "app.components.LeftMenu.navbrand.title": "BTF 仪表板",
@@ -22,6 +23,7 @@ export default {
         "app.components.HomePage.welcomeBlock.content":
           "恭喜! 您已登录为管理员。为了探索 BTF-CMS 提供的强大功能，请创建一个你的内容类型",
         "app.components.HomePage.create": "创建一个你的内容类型",
+        "Settings.permissions.users.listview.header.subtitle": "所有能够访问 BTF 管理后台的用户"
       },
     },
     tutorials: false,

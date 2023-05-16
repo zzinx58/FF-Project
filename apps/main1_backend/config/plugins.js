@@ -8,7 +8,7 @@ module.exports = ({env}) => ({
                 port: 465,
                 auth: {
                     user: "1095568627@qq.com",
-                    pass:  "kyastnyukwlgfeag",
+                    pass:  "hided",
                 },
                 secure: true
             },
