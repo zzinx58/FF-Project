@@ -17,8 +17,9 @@
     },
     "category_videos": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::video.video"
+      "relation": "manyToMany",
+      "target": "api::video.video",
+      "mappedBy": "video_categories"
     }
   }
 }

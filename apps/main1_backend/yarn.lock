@@ -3121,6 +3121,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@strapi/provider-email-nodemailer@npm:^4.10.2":
+  version: 4.10.2
+  resolution: "@strapi/provider-email-nodemailer@npm:4.10.2"
+  dependencies:
+    lodash: "npm:4.17.21"
+    nodemailer: "npm:6.9.1"
+  checksum: 5aee40d1afe71888a283e9cc2aa6fff0ed96a1b26406b7f7729dd002db14c2cff75d27d54690f12450fcf5f46ff23f01d5d31cfb6ecd104b935bd626dabfa395
+  languageName: node
+  linkType: hard
+
 "@strapi/provider-email-sendmail@npm:4.9.2":
   version: 4.9.2
   resolution: "@strapi/provider-email-sendmail@npm:4.9.2"
@@ -9516,6 +9526,7 @@ __metadata:
     "@strapi/plugin-graphql": "npm:4.9.2"
     "@strapi/plugin-i18n": "npm:4.9.2"
     "@strapi/plugin-users-permissions": "npm:^4.9.2"
+    "@strapi/provider-email-nodemailer": "npm:^4.10.2"
     "@strapi/strapi": "npm:4.9.2"
     better-sqlite3: "npm:8.0.1"
   languageName: unknown
@@ -10274,6 +10285,13 @@ __metadata:
   dependencies:
     nodemailer-fetch: "npm:1.6.0"
   checksum: 86d422689853f732ac6c50d1260ecb99f81b9fdbd070832069ff24254fe9a6853f92d6467b2f1fba8528bc620cce3ec2c3c6707f7a82d375c865b62a19f47887
+  languageName: node
+  linkType: hard
+
+"nodemailer@npm:6.9.1":
+  version: 6.9.1
+  resolution: "nodemailer@npm:6.9.1"
+  checksum: 6aa3e9afbf512b895c4ae519788d66d49720dc02ea3c0fb132917a6318d9776f7aeb94b0612b9fa2a971ddd1162ab48bcb8c223d16cbccf4ecf5f1ab22982095
   languageName: node
   linkType: hard
 

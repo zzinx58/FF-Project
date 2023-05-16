@@ -34,10 +34,22 @@
       "default": "0"
     },
     "video_played": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "default": "0"
     },
     "video_coverSrc": {
       "type": "text"
+    },
+    "video_fromUser": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "video_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "category_videos"
     }
   }
 }

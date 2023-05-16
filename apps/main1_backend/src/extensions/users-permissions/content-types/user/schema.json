@@ -74,12 +74,18 @@
     "user_avatarSrc": {
       "type": "text"
     },
-    "user_sex": {
+    "user_gender": {
       "type": "enumeration",
       "enum": [
         "male",
         "female"
       ]
+    },
+    "user_university": {
+      "type": "string"
+    },
+    "user_Id": {
+      "type": "string"
     }
   }
 }
