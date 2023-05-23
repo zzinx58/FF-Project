@@ -84,7 +84,7 @@
     "user_university": {
       "type": "string"
     },
-    "user_Id": {
+    "user_id": {
       "type": "string"
     }
   }

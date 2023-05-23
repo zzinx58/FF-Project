@@ -61,6 +61,7 @@ const HomePage = () => {
   return (
     <Layout>
       <FormattedMessage id="HomePage.helmet.title" defaultMessage="Homepage">
+        {/* zzx58 */}
         {(title) => <Helmet title={"BTF-CMS"} />}
         {/* {(title) => <Helmet title={title[0]} />} */}
       </FormattedMessage>
@@ -77,6 +78,7 @@ const HomePage = () => {
               />
             </GridItem>
           </Grid>
+          {/* zzx58 */}
           {/* <Grid gap={6}>
             <GridItem col={8} s={12}>
               {showGuidedTour ? <GuidedTourHomepage /> : <ContentBlocks />}
